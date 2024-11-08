@@ -1,0 +1,12 @@
+version: '3'
+services:
+  logging_server:
+    image: python:3.9-slim
+    container_name: logging_server
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./server.py:/server.py
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "/server.py"]
