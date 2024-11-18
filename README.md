@@ -19,4 +19,4 @@ In my own shell configuration (dotfiles and so on), the server can be started wi
 
 `fake-server <port>`
 
-See my shell configuration here: https://github.com/pascalweiss/mega-shell-env
+See my shell configuration here: https://github.com/pascalweiss/envi-shell
